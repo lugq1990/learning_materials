@@ -12,9 +12,20 @@
   
 核心是使用skip-gram和negative-sampling算法基于中心词预测周围词的概率，目标函数是：![skip-gram目标函数](https://pic4.zhimg.com/80/v2-1d9d0a01f5c0c1a8d68e5a5951cbdeef_1440w.jpg)
 
+word2vec有两个算法：skip-gram和CBOW,其中skip-gram训练出来的效果更好一些，因为是使用中心去预测同一个窗口的其他词，如果窗口为k，则中心词就会被训练K词，但CBOW是使用其他词预测中心词，所以之后训练一次，但训练速度比较快，skip-gram有更好的表达效果。
+
+负采样具体实施细节
+
+就是创建两个线段，第一个线段切开词表大小的份数，每个份数的长度和频率正比。
+
+第二个线段均分M个，然后随机取整数，整数落在第二个线段哪里，然后取第一个线段对应的词，如果碰到是自己，那么就跳过。
+
+在代码实现中，第一个线段的长度不仅仅是频率，而是一个3/4的幂次方，第二个线段切分为10的8次方个段数。
+
 
 ### ELMo
 
+- [ELMo paper](https://arxiv.org/pdf/1802.05365.pdf)
 
 - [Deep contextualized word representation](https://www.cnblogs.com/jiangxinyang/p/10060887.html)
 
