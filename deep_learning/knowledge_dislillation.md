@@ -1,0 +1,21 @@
+### Knowledge distillation
+
+#### NLP distillation
+- [TinyBERT](https://arxiv.org/pdf/1909.10351.pdf) and [code implement for TinyBERT](https://github.com/yinmingjun/TinyBERT)
+  
+  Main contribution[loss is output and median transformer differences]: 
+  1. Use `teacher-student` framework to transfer knowledge from BERT to TinyBERT.
+  2. 2-stage learning framework: general tiny transformers and task-specific transformers
+  3. Do could achieve smiliar result compared to BERT with less parameters.
+
+  Distill: 
+  1. Transformer layer distill: Use $loss=MSE(H^S * W_h, H^T)$ to move tiny layer to be same as origin transformer layer.
+  2. Embedding layer distill: Use $loss=MSE(E^S * W_e, H^T)$ same as transformer distill, but shape is same
+  3. Prediction layer distill: Use cross-entropy to compute difference between `teacher` and `student` output.
+  4. Final loss is combined these losses: ![loss func for tinybert](./../screen_shot_img/loss_func_for_tinybert.png)
+
+  TinyBert的训练过程： - 1、用通用的Bert base进行蒸馏，得到一个通用的student model base版本； - 2、用相关任务的数据对Bert进行fine-tune得到fine-tune的Bert base模型； - 3、用2得到的模型再继续蒸馏得到fine-tune的student model base，注意这一步的student model base要用1中通用的student model base去初始化；（词向量loss + 隐层loss + attention loss） - 4、重复第3步，但student model base模型初始化用的是3得到的student模型。（任务的预测label loss）.
+
+
+- [Chinese explain for KD](https://blog.csdn.net/HoyTra0/article/details/106238382)
+   

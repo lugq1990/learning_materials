@@ -1,9 +1,23 @@
 ## NLP materials
 
+### Mixed Word representation
+
+- 针对不同的词向量表达做了一个整理：[深入浅出词向量表达](https://mp.weixin.qq.com/s/UE7ClHu7kiY_HXoJrZ0CwA)
+  
+  从LSTM到transformer：
+ 
+  LSTM缺点：1. 梯度消失和梯度爆炸问题，模型不能保存长期的依赖问题； 2. 序列模型不能并行。
+
+  Transformer的两个部分：encoder和decoder；encoder由多个encoder block组成：self-attention -> layer norm -> skip-conneciton -> forward network -> position encoding。 
+  ![transformer 架构](https://mmbiz.qpic.cn/mmbiz_png/rB4jswrswuyr4LiawVUqgvEODNvojxd1T3R6tbVkFm0ChAwSxjtJvUtAtOGWM6t49w0tT79KrRXGCycUlGjtoIg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+  BERT:使用transformer架构作为encoder，训练过程中：将语料库的15%单词mask。15%分为3种：80%单词直接mask，10%单词替换成其他词，10%保持不变，称为MLM（Masked Language Model）。
+
 ### Bert
 
  - [Bert 改进： 如何融入知识](https://zhuanlan.zhihu.com/p/69941989)
  - [放弃幻想，全面拥抱Transformer：自然语言处理三大特征抽取器（CNN/RNN/TF）比较](https://zhuanlan.zhihu.com/p/54743941)
+ - 写的比较深入[谷歌BERT模型深度解析](https://blog.csdn.net/qq_39521554/article/details/83062188) 
 
 
 ### Word2vec
