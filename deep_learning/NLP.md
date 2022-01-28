@@ -13,12 +13,6 @@
 
   BERT:使用transformer架构作为encoder，训练过程中：将语料库的15%单词mask。15%分为3种：80%单词直接mask，10%单词替换成其他词，10%保持不变，称为MLM（Masked Language Model）。
 
-### Bert
-
- - [Bert 改进： 如何融入知识](https://zhuanlan.zhihu.com/p/69941989)
- - [放弃幻想，全面拥抱Transformer：自然语言处理三大特征抽取器（CNN/RNN/TF）比较](https://zhuanlan.zhihu.com/p/54743941)
- - 写的比较深入[谷歌BERT模型深度解析](https://blog.csdn.net/qq_39521554/article/details/83062188) 
-
 
 ### Word2vec
 
@@ -50,3 +44,9 @@ word2vec有两个算法：skip-gram和CBOW,其中skip-gram训练出来的效果�
 并可以对输出的向量进行缩放![输出向量的缩放](https://img2018.cnblogs.com/blog/1335117/201812/1335117-20181203205956715-1715160653.png)
 
 - [tensorflow implement for EMLo](https://github.com/allenai/bilm-tf)
+
+### Pointer network
+
+用于生成文本摘要。
+
+- [如何理解pointer network](https://zhuanlan.zhihu.com/p/48959800)
