@@ -15,3 +15,16 @@ git remote -v
 git push --set-upstream origin master
 ```
 
+-  how to solve master and remote main branch: nothing to merge problem
+
+```shell
+git branch main
+git checkout main
+
+# change to main
+git branch --set-upstream-to=origin/main main 
+# pull remote repo
+git pull --allow-unrelated-histories
+
+git push
+```

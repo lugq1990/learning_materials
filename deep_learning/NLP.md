@@ -1,5 +1,16 @@
 ## NLP materials
 
+### NLP summary
+
+- [Github summary for NLP materials, great](https://github.com/DA-southampton/NLP_ability)
+- 
+
+### NLP in action
+
+- [Transformers to use pretrained models with python](https://huggingface.co/docs/transformers/index)
+
+    transformers provide pretrained models for text, vision and audio. We could use already trained models and fine-tuning it.
+
 ### Mixed Word representation
 
 - 针对不同的词向量表达做了一个整理：[深入浅出词向量表达](https://mp.weixin.qq.com/s/UE7ClHu7kiY_HXoJrZ0CwA)

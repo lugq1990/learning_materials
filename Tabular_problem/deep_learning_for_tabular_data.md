@@ -7,3 +7,5 @@
 - [Pytorch implement for TabNet](https://github.com/dreamquark-ai/tabnet)
   
   I have tested it if for only less data won't get better result than machine learning. Paper mentions: `significantly improv- ing performance when unlabeled data is abundant`, so it will be more better if we have more unlabeled data. For traditional dataset, try machine learning!
+
+- [SAINT: Row attention and contractive pre-training](https://arxiv.org/abs/2106.01342)

@@ -23,4 +23,8 @@
 
 ### Transfomer
 
-- [really comprehensive expain for transformer and attention, also with other works related](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
+- [Comprehensive expain for transformer and attention, also with other works related in chinese](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)
+- [Tensorflow official tutorial for transformers](https://github.com/tensorflow/nmt)
+- [Harvard NLP team step by step implement transformers based on pytorch, really comprehensive and detail code](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
+- [**Best tutorial for transformers step by step! recommend!](https://jalammar.github.io/illustrated-transformer/)
+- 

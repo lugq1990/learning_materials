@@ -18,4 +18,5 @@
 
 
 - [Chinese explain for KD](https://blog.csdn.net/HoyTra0/article/details/106238382)
+- [how to distill in chinese](https://github.com/DA-southampton/NLP_ability/blob/master/深度学习自然语言处理/模型蒸馏/什么是知识蒸馏.md)
    
