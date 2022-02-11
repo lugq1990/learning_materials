@@ -18,3 +18,10 @@
 - 11-日志记录	将微服务生成的日志视为事件流。 使用事件聚合器处理它们。 将日志数据传播到数据挖掘/日志管理工具（如 Azure Monitor 或 Splunk）并最终到长期存档。
 - 12-管理进程	以一次性进程的形式运行管理/管理任务，例如数据清理或计算分析。 使用独立工具从生产环境中调用这些任务，而不是与应用程序分开。
 
+- [Cloud computing concepts hub from AWS](https://aws.amazon.com/cn/what-is/?faq-hub-cards.sort-by=item.additionalFields.sortDate&faq-hub-cards.sort-order=desc&awsf.tech-category=*all)
+   - [What is VPN](https://aws.amazon.com/cn/what-is/vpn/?nc1=h_ls)
+     
+    what is VPN used for: 
+    1. Privacy: encryption data;
+    2. Anonymity: without ip explod
+    3. Security: shut-down for suspicious activity
