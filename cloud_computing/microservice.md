@@ -22,3 +22,6 @@
 3. 分布式数据：如何查询不同的服务直接的数据并提供事务的支持？
 4. 机密：如何保存机密和敏感的配置信息？
 
+- [什么是微服务,包含对应的代码,简单易懂](https://www.jianshu.com/p/7293b148028f)
+- [微服务的各个特性和缺点已经具体应用需要注意的地方,非常详细](https://blog.csdn.net/wuxiaobingandbob/article/details/78642020)
+- [java 代码实现订单管理微服务](https://www.jianshu.com/p/efc97f64c21b/)
