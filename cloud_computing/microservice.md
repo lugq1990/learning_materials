@@ -25,6 +25,7 @@
 - [什么是微服务,包含对应的代码,简单易懂](https://www.jianshu.com/p/7293b148028f)
 - [微服务的各个特性和缺点已经具体应用需要注意的地方,非常详细](https://blog.csdn.net/wuxiaobingandbob/article/details/78642020)
 - [java 代码实现订单管理微服务](https://www.jianshu.com/p/efc97f64c21b/)
+- 如何实现对不同服务的逻辑定义和处理：编制(同步)，编排(消息驱动)，API网关(适配网关)：[微服务的服务编排](https://www.jianshu.com/p/54e2e223dbac)
 
 ### Springboot framework
 
