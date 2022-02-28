@@ -26,10 +26,31 @@
 - [微服务的各个特性和缺点已经具体应用需要注意的地方,非常详细](https://blog.csdn.net/wuxiaobingandbob/article/details/78642020)
 - [java 代码实现订单管理微服务](https://www.jianshu.com/p/efc97f64c21b/)
   
-#### 微服务的服务编排
+### 微服务的服务编排
 
 - [微服务的编排方式,带有案例](https://blog.csdn.net/xiaoyw71/article/details/119331751)
 - 如何实现对不同服务的逻辑定义和处理：编制(同步)，编排(消息驱动)，API网关(适配网关)：[微服务的服务编排](https://www.jianshu.com/p/54e2e223dbac)
+
+
+### 微服务的监控
+
+- [微服务的调用链监控](https://www.cnblogs.com/jsjwk/p/10937991.html)
+  
+  调用链解决的问题：多服务之间的关系，从一个请求到一个请求的结束的全链路跟踪，核心三个概念：Trace是一个请求的父节点，span是每个服务的节点，annotation是每一个span上的自定义数据。
+  ![trace span annotation](https://img2018.cnblogs.com/blog/1453917/201905/1453917-20190528155959334-1827382171.png)
+
+  链路监控系统的构成：数据埋点采集，数据存储分析，数据分析展示
+
+  作用：
+  1. 项目网络拓扑图
+  2. 快速定位问题
+  3. 优化系统
+
+  开源的产品：
+  1. CAT
+  2. Open Zipkin
+  3. Naver pinpoint
+   
 
 ### Springboot framework
 
