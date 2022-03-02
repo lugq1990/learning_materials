@@ -25,3 +25,5 @@
     1. Privacy: encryption data;
     2. Anonymity: without ip explod
     3. Security: shut-down for suspicious activity
+
+- [对象存储的原理清晰说明](https://liuag.blog.csdn.net/article/details/17973039)
