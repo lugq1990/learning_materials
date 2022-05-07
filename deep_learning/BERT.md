@@ -1,3 +1,5 @@
+## BERT
+
 ### BERT
 
  - [Bert 改进： 如何融入知识](https://zhuanlan.zhihu.com/p/69941989)
@@ -27,4 +29,25 @@
 - [Tensorflow official tutorial for transformers](https://github.com/tensorflow/nmt)
 - [Harvard NLP team step by step implement transformers based on pytorch, really comprehensive and detail code](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
 - [**Best tutorial for transformers step by step! recommend!](https://jalammar.github.io/illustrated-transformer/)
-- 
+
+
+### Attention
+
+- [How to understand Attention with real world problem](https://towardsdatascience.com/intuitive-understanding-of-attention-mechanism-in-deep-learning-6c9482aecf4f)
+  
+  Summary:
+
+  Seq2Seq logic: Move full encoding information into one context vector and decoder will use this context vector to generate each step word probability to get word prediction. Only full encoder info is stored in context vector, but it maybe couldn't store that much longth info.
+
+  Attention logic:
+
+  For encoder:
+  1. Init embedding for each word and output hidden state also with a random init attention vector.
+  2. for each word will be attached with one vector `Hi`.
+   
+  For decoder:
+  1. Get each hidden vector score by using a `feed forward network` to get logits and `softmax` to get weights for each vector.
+  2. For each step to get encoder hidden state is to multiply each step weights with each hidden vector
+  3. Use weighted vector context and it's original embedding vector to generate hidden states, outputs vector and probability for each step.
+   
+   In summary, decoder will not only use encoder output, but also with attention hidden vector to get notice for each word importances.
