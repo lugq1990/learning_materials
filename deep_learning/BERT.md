@@ -51,3 +51,4 @@
   3. Use weighted vector context and it's original embedding vector to generate hidden states, outputs vector and probability for each step.
    
    In summary, decoder will not only use encoder output, but also with attention hidden vector to get notice for each word importances.
+- [Implement Transformers step by step with Harvord](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
