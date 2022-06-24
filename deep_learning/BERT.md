@@ -52,3 +52,11 @@
    
    In summary, decoder will not only use encoder output, but also with attention hidden vector to get notice for each word importances.
 - [Implement Transformers step by step with Harvord](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
+  
+
+### Featured-based and fine-tuned based
+- [How to use BERT as a featured-based solution](https://trishalaneeraj.github.io/2020-04-04/feature-based-approach-with-bert)
+  
+  In summary: Feature-based is to train base model with datasets and fixed the content vector, use that vector to do next step training like Word2vec, fine-tuning is first try to build a base model based on huge dataset, and try to use trained weights to fine-tuning for down-step tasks, and update these weights.
+
+  This blog is just extract already trained BERT's 12 layers weights and do a classification models with these features.
