@@ -11,6 +11,12 @@
 
     transformers provide pretrained models for text, vision and audio. We could use already trained models and fine-tuning it.
 
+### NLP books
+
+- [NLP with pytorch in chinese](https://nlp-pt.apachecn.org/#/docs/1)
+  
+  I have read through this book, most of contexts are basic, also even with pytorch isn't that deep, so this is only recommend for readers are new for NLP, not for execisers.
+
 ### Mixed Word representation
 
 - 针对不同的词向量表达做了一个整理：[深入浅出词向量表达](https://mp.weixin.qq.com/s/UE7ClHu7kiY_HXoJrZ0CwA)
