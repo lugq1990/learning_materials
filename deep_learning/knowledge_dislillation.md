@@ -20,3 +20,12 @@
 - [Chinese explain for KD](https://blog.csdn.net/HoyTra0/article/details/106238382)
 - [how to distill in chinese](https://github.com/DA-southampton/NLP_ability/blob/master/深度学习自然语言处理/模型蒸馏/什么是知识蒸馏.md)
    
+- [知识蒸馏基础，简单说明如何使用温度控制来保证学生模型学习老师模型,推荐](https://zhuanlan.zhihu.com/p/102038521?utm_source=wechat_timeline)
+
+  核心：
+  - 训练一个大的教师模型，定义一个小的学生模型（假设：模型的准确度不是随着参数变小而线性变化）
+  - 对样本利用大模型进行预测，获取softmax概率（假设：概率大的负样本同时包含信息）
+  - 对小模型进行样本学习，核心误差：soft loss 和 hard loss的加权值（soft loss是小模型同时输出softmax值来和大模型softmax值进行CE误差计算，hard loss是和大模型的预测结果直接计算误差，其实也可以使用logits直接计算soft loss）
+  - 对误差进行反向学习来更新小模型的参数
+
+- 
