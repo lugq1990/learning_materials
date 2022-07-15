@@ -74,3 +74,10 @@ word2vec有两个算法：skip-gram和CBOW,其中skip-gram训练出来的效果�
 - [如何实现中文分词,基于词典分词](https://github.com/DA-southampton/NLP_ability/blob/master/深度学习自然语言处理/关键词提取/中文分词/基于词典的正向最大匹配和逆向最大匹配中文分词.md)
   
   可以通过正向，反向匹配对中文句子进行分词。核心逻辑就是对一句话不断的去掉末尾的词，然后通过对剩下的结果是否在词典内进行判断，如果存在则可以将单词放到结果中，不然继续迭代。
+
+
+### NER提取
+
+- [HMM模型讲解](https://www.cnblogs.com/skyme/p/4651331.html)
+  
+  NER使用HMM和CRF模型进行实体抽取。
