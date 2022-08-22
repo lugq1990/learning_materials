@@ -17,3 +17,6 @@
   1. default is no parallel;
   2. Try to use one int column with partitionCol and lower and upper bound
   3. with user defined function to extract data like by date range.
+
+### Spark source insight
+- [系统的学习Spark,非常具体细节，推荐细读](https://spark-internals.books.yourtion.com/markdown/1-Overview.html)
