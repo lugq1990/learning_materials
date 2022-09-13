@@ -20,4 +20,5 @@
       - 可靠的、稳定的消息传递机制
       - 大量的数据传输
       - 无法容忍消息的丢失，数据保留可以进行追溯
+- [Spark read redis hands-on](https://developer.aliyun.com/article/703467)
 

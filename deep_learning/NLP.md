@@ -81,3 +81,7 @@ word2vec有两个算法：skip-gram和CBOW,其中skip-gram训练出来的效果�
 - [HMM模型讲解](https://www.cnblogs.com/skyme/p/4651331.html)
   
   NER使用HMM和CRF模型进行实体抽取。
+
+
+### Prompt
+- [什么事prompt来对NLP任务提供提示来实现无监督学习模型训练](https://zhuanlan.zhihu.com/p/440169921)
