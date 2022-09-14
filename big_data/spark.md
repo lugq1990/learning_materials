@@ -20,3 +20,5 @@
 
 ### Spark source insight
 - [系统的学习Spark,非常具体细节，推荐细读](https://spark-internals.books.yourtion.com/markdown/1-Overview.html)
+- [highlevel explain spark workflow with architecture](https://www.analyticsvidhya.com/blog/2021/08/understand-the-internal-working-of-apache-spark/)
+- [Databricks explain spark internals youtube](https://www.databricks.com/session/a-deeper-understanding-of-spark-internals)
