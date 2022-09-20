@@ -22,3 +22,9 @@
 - [系统的学习Spark,非常具体细节，推荐细读](https://spark-internals.books.yourtion.com/markdown/1-Overview.html)
 - [highlevel explain spark workflow with architecture](https://www.analyticsvidhya.com/blog/2021/08/understand-the-internal-working-of-apache-spark/)
 - [Databricks explain spark internals youtube](https://www.databricks.com/session/a-deeper-understanding-of-spark-internals)
+
+
+### Spark Graphx
+- [spark graphX原理讲解](https://blog.csdn.net/weixin_47134119/article/details/117756930)
+- [Spark graphx内容整理、非常详细](https://developer.aliyun.com/article/371121)
+- [Graphframe基于Dataframe实现的graphx，用起来确实方便](https://graphframes.github.io/graphframes/docs/_site/user-guide.html)
