@@ -2,7 +2,7 @@
 
 
 ### Dataops基础
-- [什么是Dataops](https://cloud.tencent.com/developer/article/1658320)
+- [什么是Dataops，非常详细推荐！](https://cloud.tencent.com/developer/article/1658320)
   -  总结
      -  三要素：持续集成、持续开发、持续部署
      -  Dataops的意义：
