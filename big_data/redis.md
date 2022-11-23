@@ -22,4 +22,4 @@
       - 无法容忍消息的丢失，数据保留可以进行追溯
 - [Spark read redis hands-on](https://developer.aliyun.com/article/703467)
 - [Redis原理介绍](https://www.51cto.com/article/667365.html)
-
+- [redis核心知识及面试问题答案](https://ost.51cto.com/posts/11489)
