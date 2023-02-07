@@ -23,3 +23,5 @@
 - [Spark read redis hands-on](https://developer.aliyun.com/article/703467)
 - [Redis原理介绍](https://www.51cto.com/article/667365.html)
 - [redis核心知识及面试问题答案](https://ost.51cto.com/posts/11489)
+- [redis核心技术及实现笔记](https://qiankunli.github.io/2020/08/04/redis_practice.html)
+- [redis原理内部内容解释](https://www.cnblogs.com/buttercup/p/14151217.html)

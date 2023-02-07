@@ -6,7 +6,7 @@
  - [放弃幻想，全面拥抱Transformer：自然语言处理三大特征抽取器（CNN/RNN/TF）比较](https://zhuanlan.zhihu.com/p/54743941)
  - [如何理解BERT,知乎](https://www.zhihu.com/question/298203515)
  - 写的比较深入[谷歌BERT模型深度解析](https://blog.csdn.net/qq_39521554/article/details/83062188) 
- - [清晰简明的解释了BERT](https://www.cnblogs.com/huangyc/p/9813907.html)
+ - [清晰简明的解释了Transformer](https://www.cnblogs.com/huangyc/p/9813907.html)
  - [Pytorch code implement of Bert](https://github.com/codertimo/BERT-pytorch)
   
   Based on code implement like bellow summary[from bottom to up]:
