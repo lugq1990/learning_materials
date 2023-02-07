@@ -17,6 +17,12 @@
   1. default is no parallel;
   2. Try to use one int column with partitionCol and lower and upper bound
   3. with user defined function to extract data like by date range.
+- [spark数据倾斜解决方案](https://www.51cto.com/article/702345.html)
+  - 过滤异常数据
+  - 对倾斜数据识别，并两阶段分别合并，对有倾斜数据添加key保证并行度，然后再和没有倾斜数据Union
+  - 提高shuffle并行度，提供更多资源来保证hash数据分到更多不同worker
+  - 自定义hash函数
+  - 将reduce端join改成map端join，其实就是通过广播变量的方式
 
 ### Spark source insight
 - [系统的学习Spark,非常具体细节，推荐细读](https://spark-internals.books.yourtion.com/markdown/1-Overview.html)
