@@ -12,6 +12,7 @@
 
 - [flink 运维](https://flink.apache.org/zh/flink-operations.html)
 - [flink的核心架构，非常全面](https://blog.51cto.com/u_15294184/3052633)
+- [flink核心内容,非常详细](https://blog.csdn.net/a805814077/article/details/108095451)
 
 
 ### Flink CDC
@@ -24,3 +25,7 @@
     - 基于DML操作，无需全表扫描，更高的效率和性能
     - 无需侵入业务、业务解耦
 - [Flink CDC架构介绍](https://flink-learning.org.cn/article/detail/3ebe9f20774991c4d5eeb75a141d9e1e)
+
+
+### Flink hands-on
+- [pyflink hands-on with code](https://flink-learning.org.cn/article/detail/65bcdf72a377d468b5436c3e76a63437)
