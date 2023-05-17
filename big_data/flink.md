@@ -13,7 +13,7 @@
 - [flink 运维](https://flink.apache.org/zh/flink-operations.html)
 - [flink的核心架构，非常全面](https://blog.51cto.com/u_15294184/3052633)
 - [flink核心内容,非常详细](https://blog.csdn.net/a805814077/article/details/108095451)
-
+- [Flink流处理读书笔记，推荐！](https://cloud.tencent.com/developer/article/2136281)
 
 ### Flink CDC
 - [Flink CDC应用场景](https://developer.aliyun.com/article/777502)
@@ -29,3 +29,9 @@
 
 ### Flink hands-on
 - [pyflink hands-on with code](https://flink-learning.org.cn/article/detail/65bcdf72a377d468b5436c3e76a63437)
+
+
+### Flink state storage
+- [How to use rocksdb as state backend storage with code](https://towardsdatascience.com/heres-how-flink-stores-your-state-7b37fbb60e1a)
+- [Use remote rocksdb as state storage is fine?](https://stackoverflow.com/questions/70900933/flink-state-using-rocksdb)
+- [flink state backend storage official introduce](https://nightlies.apache.org/flink/flink-docs-master/docs/ops/state/state_backends/)

@@ -20,3 +20,11 @@
 - [Spark读取kafka数据的方式：receiver和direct的区别及代码实现](https://www.jianshu.com/p/9e3d41e27009)
   - 默认可以使用receiver方式，通过WAL和checkpoint保证数据不丢失，kafka的分区个数和spark分区个数没有关系，offset数据通过zookeeper默认保存，数据都是存在spark内存中（如果oom，会造成数据丢失，所以需要checkpint和WAL），如果通过增加topic分区个数并不会提高效率，只是receiver效率高一些
   - direct是通过kafka low level API来手动保存offset数据，kafka和spark分区个数一一对应，通过kafka父辈数据进行恢复
+
+### Kafka high-availability
+- [kafka min-insync setting for availability](https://www.conduktor.io/kafka/kafka-topic-configuration-min-insync-replicas/)
+
+
+### kafka kstream
+- [kafka kstream with state store, good to read](https://medium.com/lydtech-consulting/kafka-streams-state-store-30110bf4f24)
+- [kafka kstream with state store in deep, nice to read](https://www.confluent.io/blog/how-to-tune-rocksdb-kafka-streams-state-stores-performance/)
