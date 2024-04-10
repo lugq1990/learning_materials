@@ -35,3 +35,7 @@
 - [How to use rocksdb as state backend storage with code](https://towardsdatascience.com/heres-how-flink-stores-your-state-7b37fbb60e1a)
 - [Use remote rocksdb as state storage is fine?](https://stackoverflow.com/questions/70900933/flink-state-using-rocksdb)
 - [flink state backend storage official introduce](https://nightlies.apache.org/flink/flink-docs-master/docs/ops/state/state_backends/)
+
+
+### Online books
+- [尚学堂的flink的介绍](https://confucianzuoyuan.github.io/flink-tutorial/book/chapter01-00-00-第一章，有状态的流式处理简介.html)
