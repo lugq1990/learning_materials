@@ -2,5 +2,6 @@
 
 
 ### LLM 面试问题
-- [https://blog.csdn.net/weixin_36378508/article/details/133809694](大模型LLM相关面试题整理)
+- [大语言模型的面试问题总结，比较high level](https://zhuanlan.zhihu.com/p/651147548)
+- [大语言模型面试八股文](https://zhuanlan.zhihu.com/p/643560888)
 - 
