@@ -9,6 +9,9 @@
 - [When try to read spark source code, we could use 2010 version of spark, I have readed some of them, it's clear!](https://github.com/apache/spark/tree/5b021ce0990ec675afc6939cc2c06f041c973d17/core/src/main/scala/spark)
 
 
+- [全面的说明spark调优设计的内容](https://github.com/wdndev/llm_interview_note/blob/main/08.%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BArag/%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BAllm/%E6%A3%80%E7%B4%A2%E5%A2%9E%E5%BC%BAllm.md)
+- 
+
 #### How to use Spark
 - [How to read data with JDBC connection](https://www.cnblogs.com/wwxbi/p/6978774.html)
 - [How to reduce extract data time](https://www.jianshu.com/p/83d273dfea1c)
