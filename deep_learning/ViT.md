@@ -11,3 +11,4 @@
   - 将位置信息和线性变换的向量整合成一个向量，不同的patch整合到一起类似于文字的向量，N*T(N为单词的个数，T为单词的embeddind)
   - 然后对全部的信息进行一个attetion，剩下的和transformer类似
   - 最终输出一个类别信息，来计算loss，更新模型参数
+- [ViT针对不同层的类别可视化, 提供代码](https://blog.csdn.net/z240626191s/article/details/132504292)
